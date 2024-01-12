@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button
+        {
+            text-align: center;
+            /* border: 3px rgb(229, 8, 45); */
+            height: 10px; width: 30px;
+        }
+        a:link
+        {
+            color: rgb(2, 1, 1);
+            background-color: transparent;
+        }
+        a:visited
+        {
+            color: rgb(147, 213, 16);
+
+        }
+        a:hover
+        {
+            color: rgb(188, 33, 129);
+        }
+        a:active
+        {
+            color: rgb(233, 107, 11);
+        }
+    </style>
+
+</head>
+<body>
+    <a href="https://www.w3schools.com/">w3schools </a><br>
+    <a href="https://www.whatsapp.com/">whatsapp</a>
+    <!-- using target attribute --> <br>
+    <a href="https://www.whatsapp.com/" target="_blank">whatsapp</a><br>
+    <a href="https://www.feacbook.com/" target="_self">feacbook</a><br>
+    <a href="https://www.instagram.com/" target="_parent">instagram</a><br>
+    <a href="https://www.snapchat.com/" target="_top">snapchat</a>
+
+
+    <!-- Absoloute urls-->
+    <!-- it indicates the address from search tab or external reference -->
+    <div>
+        <p><a href="https://web.whatsapp.com/">wh</a></p>
+        <p><a href="https://web.instagram.com/">ins</a></p>
+    </div>
+
+    <!-- Relative urls urls-->
+    <!-- in this urls we can select image directly through folder or any file that are present in the folder -->
+    <a href="IMG-20211007-WA0006.jpg">click here to see my picture <br></a>
+    <!--  -->
+
+    <!-- link images -->
+    <!-- <a href="www.google.com">google</a> --> <br>
+    <img src="IMG-20211007-WA0006.jpg" alt="try later" style="height: 60px ; width: 60px; text-align: center; border: 2px solid red; box-shadow: violet; padding: 2px;">
+    <br>
+    <!-- link to email -->
+    <a href="mailto:vaibhavsawant718@gmail.com">send mail <br></a>
+
+<!-- button as a link -->
+<div class="button">
+<button onclick="document.location='https://web.whatsapp.com/'" style="color: orange; text-align: center; background-color: aqua ; text-shadow: springgreen; height: 30px; width: 90px; border-radius: 10em; border-color: gold; text-decoration: wavy;">
+whatsapp
+</button>
+</div>
+</body>
+</html>

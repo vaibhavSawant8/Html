@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *
+    {
+        *margin: 10%;
+        justify-content: center;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+
+    }
+    header
+    {   
+    text-align:center;
+    background-color: red;
+        color: yellow;
+        padding: 6%;
+        font-size: 120px;
+    }
+    nav
+    {
+        padding: 20PX;
+        background-color: cadetblue;
+        height: 300PX;
+        width: fit-content;
+    }
+    nav ul{
+        padding: 0;
+        list-style: none;
+    }
+    article
+    {
+        height: 300px;
+        width: 70%;
+        background-color: #666;
+        padding: 20px;
+        float: left;
+    }
+    section::after
+    {
+        display: table;
+        clear: both;
+    }
+    @media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+<body>
+    <h2>css layout float</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolor voluptatibus illum? Maxime culpa quis qui distinctio ex sequi cupiditate, ducimus, eum expedita exercitationem, quos eligendi dolorum facere aperiam dolorem.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quam aliquid quidem necessitatibus consequuntur magni illum excepturi dolore, pariatur voluptates amet aut ratione ea laborum. Sequi autem odit perspiciatis nihil!</p>
+    <header>cities</header>
+    <section>
+        <nav>
+        <ul>
+            <li>sangli</li>
+            <li>miraj</li>
+            <li>kupwad</li>
+        </ul>
+    </nav>
+    <article>
+        <h1>sangli</h1>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non debitis cum, nobis officia quas dolores facilis voluptate necessitatibus possimus quidem recusandae vel commodi quod suscipit reiciendis, veniam enim est! Quis!
+    <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi assumenda a tempore repudiandae provident hic esse dignissimos nesciunt nisi nemo reprehenderit officia eius optio dolorem nam recusandae, atque accusantium omnis. -->
+    <!-- <h1>miraj</h1> -->
+    <!-- <h1>kupwad</h1> -->
+     <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut quaerat illo inventore ipsum blanditiis excepturi officiis iure harum laboriosam ipsa magnam porro, similique nobis! Libero fugit error hic dolore quia. -->
+    </article>
+    </section>
+    
+        <footer>
+            <p>footer</p>
+        </footer>
+    
+</body>
+</html>

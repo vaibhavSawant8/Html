@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="workplace.jpg" alt="workplace" usemap="#workmap">
+    <map name="workmap">
+        <!-- DONT UNDERSAND MEANS OF COORDS AND ITS USE -->
+        <!-- <area shape="rect" coords="33,44,270,350" href="computer.html" alt="computer"> -->
+        <!-- <area shape="rect" coords="290,172,333,250" href="phone.html" alt="phone"> -->
+        <!-- <area shape="circle" coords="337,300,44" href="coffee.html" alt="coffee"> -->
+
+        <map name="officemap">
+            <area shape="circle" coords="337,300,44" href="coffee.html" alt="coffe" onclick="myFunction()">
+        </map>
+        <script>
+            function myFunction()
+            {
+                alert("you clicked the coffe cup! ");
+
+            }
+        </script>
+    </map>
+    <!-- not clear bcz only above part is notifaction or Alert show not computer -->
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm" onclick="myFunction">
+        <script>
+            myFunction
+            {
+                alert=("you clicked the computer!")
+            }
+        </script>
+        </map>
+        
+</body>
+</html>

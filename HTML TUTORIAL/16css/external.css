@@ -1,0 +1,10 @@
+.abc{
+    border:2px solid red;
+    font-size: large;
+    font-family: monospace;
+color: rgb(36, 3, 203);
+background-color: rgb(36, 240, 36);
+text-align: center;
+padding: 100px;;
+margin: 250px;;
+}
